@@ -1,4 +1,4 @@
-package vandy.cs4728.project;
+package cs251.vandy.principlesofsoftwareengineering;
 
 import org.junit.Test;
 
