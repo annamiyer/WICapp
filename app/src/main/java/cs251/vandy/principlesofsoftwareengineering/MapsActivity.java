@@ -43,23 +43,23 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         googleMap.addMarker(new MarkerOptions().position(appleMarket).title("Marker at Apple Market"));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(appleMarket));
 
-        /**LatLng bellshireValPlus = new LatLng(36.266201, -86.756205);
-         mMap.addMarker(new MarkerOptions().position(bellshireValPlus).title("Marker at Bellshire Value Plus"));
-         mMap.moveCamera(CameraUpdateFactory.newLatLng(bellshireValPlus));
+        LatLng bellshireValPlus = new LatLng(36.266201, -86.756205);
+         googleMap.addMarker(new MarkerOptions().position(bellshireValPlus).title("Marker at Bellshire Value Plus"));
+         googleMap.moveCamera(CameraUpdateFactory.newLatLng(bellshireValPlus));
 
 
          LatLng billMartins = new LatLng(36.173850, -86.750144);
-         mMap.addMarker(new MarkerOptions().position(billMartins).title("Marker at Bill Martins"));
-         mMap.moveCamera(CameraUpdateFactory.newLatLng(billMartins));
+         googleMap.addMarker(new MarkerOptions().position(billMartins).title("Marker at Bill Martins"));
+         googleMap.moveCamera(CameraUpdateFactory.newLatLng(billMartins));
 
          LatLng comptons = new LatLng(36.089303, -86.609406);
-         mMap.addMarker(new MarkerOptions().position(comptons).title("Marker at Compton's Foodland"));
-         mMap.moveCamera(CameraUpdateFactory.newLatLng(comptons));
+         googleMap.addMarker(new MarkerOptions().position(comptons).title("Marker at Compton's Foodland"));
+         googleMap.moveCamera(CameraUpdateFactory.newLatLng(comptons));
 
          LatLng durdur = new LatLng(36.127986, -86.711134);
-         mMap.addMarker(new MarkerOptions().position(durdur).title("Marker at Dur Dur International Market"));
-         mMap.moveCamera(CameraUpdateFactory.newLatLng(durdur));
-         **/
+         googleMap.addMarker(new MarkerOptions().position(durdur).title("Marker at Dur Dur International Market"));
+         googleMap.moveCamera(CameraUpdateFactory.newLatLng(durdur));
+
     }
 }
 
