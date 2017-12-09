@@ -71,25 +71,46 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(nashville, 10.0f));
 
         LatLng appleMarket = new LatLng(36.057755, -86.717139);
-        mMap.addMarker(new MarkerOptions().position(appleMarket).title("Marker at Apple Market"));
+        mMap.addMarker(new MarkerOptions().position(appleMarket).title("Apple Market #40")
+                .snippet("Address: 5127 Nolensville Pike, Phone Number: 833-6256"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(appleMarket));
 
         LatLng bellshireValPlus = new LatLng(36.266201, -86.756205);
-        mMap.addMarker(new MarkerOptions().position(bellshireValPlus).title("Marker at Bellshire Value Plus"));
+        mMap.addMarker(new MarkerOptions().position(bellshireValPlus).title("Bellshire Valu-Plus")
+                .snippet("Address: 3839 Dickerson Pike, Phone number: 868-1002"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(bellshireValPlus));
 
 
         LatLng billMartins = new LatLng(36.173850, -86.750144);
-        mMap.addMarker(new MarkerOptions().position(billMartins).title("Marker at Bill Martins"));
+        mMap.addMarker(new MarkerOptions().position(billMartins).title("Bill Martins Cee-Bee")
+                .snippet("Address: 221 South 11th Street, Phone Number: 228-8971"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(billMartins));
 
         LatLng comptons = new LatLng(36.089303, -86.609406);
-        mMap.addMarker(new MarkerOptions().position(comptons).title("Marker at Compton's Foodland"));
+        mMap.addMarker(new MarkerOptions().position(comptons).title("Compton's Foodland")
+                .snippet("Address: 2808 Smith Springs Road, Phone Number: 367-0082"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(comptons));
 
         LatLng durdur = new LatLng(36.127986, -86.711134);
-        mMap.addMarker(new MarkerOptions().position(durdur).title("Marker at Dur Dur International Market"));
+        mMap.addMarker(new MarkerOptions().position(durdur).title("Dur Dur International Market")
+                .snippet("Address: 1080-A Murfreesboro Pike, Phone Number: 360-7822"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(durdur));
+
+        LatLng eddies = new LatLng(35.464451, -86.467451);
+        mMap.addMarker(new MarkerOptions().position(eddies).title("Eddie's Cee-Bee")
+                .snippet("Address: 109 Lafayette Street, Phone Number: 244-1132"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(eddies));
+
+        LatLng bordeaux = new LatLng(36.197266, -86.836915);
+        mMap.addMarker(new MarkerOptions().position(bordeaux).title("Bordeaux Foodland")
+                .snippet("Address: 3205 Clarksville Highway, Phone Number: 254-6384"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(bordeaux));
+
+        LatLng goldStar = new LatLng(36.130249, -86.714917);
+        mMap.addMarker(new MarkerOptions().position(goldStar).title("Gold Star Market")
+                .snippet("Address: 974 Murfreesboro Pike, Phone Number: 678-6939"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(bordeaux));
+
 
     }
 
