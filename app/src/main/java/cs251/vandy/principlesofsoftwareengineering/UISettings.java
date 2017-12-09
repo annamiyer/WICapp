@@ -1,3 +1,9 @@
+package cs251.vandy.principlesofsoftwareengineering;
+
+/**
+ * Created by peachesmemishian on 12/6/17.
+ */
+
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -14,28 +20,22 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.Toast;
 
-public class UISettings extends AppCompatActivity implements OnMapReadyCallback {
-
-    private GoogleMap mMap;
+public abstract class UISettings extends AppCompatActivity implements OnMapReadyCallback {
+    /** private GoogleMap mMap;
 
     private UiSettings mUiSettings;
 
-    @Override
-    public void onMapReady(GoogleMap map) {
-        mMap = map;
-
-        mUiSettings = mMap.getUiSettings();
-
-        /**
+     /**
          * Returns whether the checkbox with the given id is checked.
-         */
-        private boolean isChecked(int id) {
-            return ((CheckBox) findViewById(id)).isChecked();
-        }
+
+    private boolean isChecked(int id) {
+        return ((CheckBox) findViewById(id)).isChecked();
+    }
 
     @Override
     public void onMapReady(GoogleMap map) {
 
+        mMap = map;
         mUiSettings = mMap.getUiSettings();
 
         // Keep the UI Settings state in sync with the checkboxes.
@@ -91,5 +91,5 @@ public class UISettings extends AppCompatActivity implements OnMapReadyCallback 
         mUiSettings.setRotateGesturesEnabled(((CheckBox) v).isChecked());
     }
 
-
+    */
 }
