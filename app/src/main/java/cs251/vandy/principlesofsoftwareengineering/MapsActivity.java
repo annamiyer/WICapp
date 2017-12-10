@@ -109,8 +109,27 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         LatLng goldStar = new LatLng(36.130249, -86.714917);
         mMap.addMarker(new MarkerOptions().position(goldStar).title("Gold Star Market")
                 .snippet("Address: 974 Murfreesboro Pike, Phone Number: 678-6939"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(bordeaux));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(goldStar));
 
+        LatLng kwikStop = new LatLng(36.251663, -86.716270);
+        mMap.addMarker(new MarkerOptions().position(kwikStop).title("Kwik Stop 2")
+                .snippet("Address: 201 E. Webster St, Phone Number: 865-9882"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(kwikStop));
+
+        LatLng latinoMerc = new LatLng(36.084040, -86.703006);
+        mMap.addMarker(new MarkerOptions().position(latinoMerc).title("Latino Super Mercado")
+                .snippet("Address: 219 Largo Drive, Phone Number: 834-3385"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(latinoMerc));
+
+        LatLng LnE = new LatLng(36.129970, -86.713625);
+        mMap.addMarker(new MarkerOptions().position(LnE).title("L&E Market")
+                .snippet("Address: 606 Millwood Drive, Phone Number: 360-8000"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(LnE));
+
+        LatLng mexicana = new LatLng(36.129106, -86.714781);
+        mMap.addMarker(new MarkerOptions().position(mexicana).title("La Mexicana Market")
+                .snippet("Address: 989 Murfreesboro Pike, Phone Number: 366-2992"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(mexicana));
 
     }
 
